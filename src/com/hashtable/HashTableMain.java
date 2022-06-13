@@ -25,7 +25,9 @@ public class HashTableMain {
                  hash.ad(word , value);
             	
             } 
-        System.out.println(hash);
+            System.out.println(hash);
+            hash.remove("paranoid");
+            System.out.println(hash);
     }
     }}
 
